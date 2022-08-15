@@ -26,9 +26,9 @@
 /* #define NOR_OE      RALT(KC_O) */
 /* #define NOR_AA      RALT(KC_A) */
 // Linux
-#define NOR_AE      RA(KC_Z)
-#define NOR_OE      RA(KC_L)
-#define NOR_AA      RA(KC_W)
+#define NOR_AE      RA(Z)
+#define NOR_OE      RA(L)
+#define NOR_AA      RA(W)
 
 
 / {
