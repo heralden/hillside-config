@@ -100,13 +100,13 @@
  * | Cut   |       | Mute  |       |       | Play  |-----------------------------------| Play  |   {   |   }   |   [   |   ]   |  Å    |
  * | Copy  | BriUp | Vol+  | Home  | PgUp  |PrvTab |-----------------------------------| Left  |  Down |  Up   | Right |   Ø   |  Æ    |
  * | Paste | BriDn | Vol-  | End   | PgDn  |NxtTab |       |-------------------|       | BegLn | EndLn |  (    |  )    |   =   |  +    |
- *                                 |       |       |       |       |---|       |       |       |       |
+ *                                 |       |       |       |       |---|       |  TAB  |       |       |
  */
                         bindings = <
 &kp  Cut      &none         &kp  C_MUTE   &none         &none         &kp  C_PLAY_PAUSE                                                              &kp C_PLAY_PAUSE &kp  LBRC    &kp   RBRC    &kp   LBKT    &kp  RBKT     &kp NOR_AA
 &kp  Copy     &kp  C_BRI_UP &kp  C_VOL_UP &kp  HOME     &kp  PG_UP    &kp  LC(LS(TAB))                                                               &kp   LEFT       &kp  DOWN    &kp   UP      &kp   RIGHT   &kp  NOR_OE   &kp NOR_AE
 &kp  Paste    &kp  C_BRI_DN &kp  C_VOL_DN &kp  END      &kp  PG_DN    &kp  LC(TAB)  &trans                                             &trans        &kp   HOME       &kp  END     &kp   LPAR    &kp   RPAR    &kp  EQUAL    &kp PLUS
-                                                        &trans        &trans        &trans        &trans                 &trans        &trans        &trans           &trans
+                                                        &trans        &trans        &trans        &trans                 &trans        &kp TAB       &trans           &trans
                         >;
                 };
 
