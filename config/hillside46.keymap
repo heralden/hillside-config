@@ -73,8 +73,8 @@
                         bindings = <
 &kp  GRAVE    &kp  Q        &kp  W        &kp  E        &kp  R        &kp  T                                                                         &kp  Y        &kp  U        &kp  I        &kp  O        &kp  P        &kp  MINUS
 &skq LSHIFT   &kp  A        &kp  S        &kp  D        &kp  F        &kp  G                                                                         &kp  H        &kp  J        &kp  K        &kp  L        &kp  SEMI     &skq LSHIFT
-&kp  BSLH     &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &skq LGUI                                          &skq LALT     &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  SQT      &kp  SLASH
-                                                        &caps_word    &skq LC(LGUI) &kp  BKSP      &sl  FUN_L           &sl  NUMSYM_L  &kp SPACE     &skq LCTRL    &kp PAUSE_BREAK
+&kp  BSLH     &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &kp LGUI                                            &kp LALT     &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  SQT      &kp  SLASH
+                                                        &caps_word    &skq LC(LGUI) &kp  BKSP      &sl  FUN_L            &sl  NUMSYM_L  &kp SPACE    &skq LCTRL    &kp PAUSE_BREAK
                         >;
                 };
 		
